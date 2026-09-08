@@ -1,2 +1,2 @@
-# cpp-calculator
-A simple calculator program written in C++.
+# cpp-programs
+Programs written in C++.
