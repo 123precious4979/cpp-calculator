@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int greatest(int a, int b, int c)
+{
+    int largest = a;
+
+    if (b > largest)
+        largest = b;
+
+    if (c > largest)
+        largest = c;
+
+    return largest;
+}
+
+int main()
+{
+    int a, b, c;
+
+    cout << "Enter three numbers: ";
+    cin >> a >> b >> c;
+
+    cout << "Greatest number = " << greatest(a, b, c);
+
+    return 0;
+}
